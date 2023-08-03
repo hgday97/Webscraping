@@ -1,7 +1,7 @@
-Code adapted from https://thepythonscrapyplaybook.com/freecodecamp-beginner-course/ as an introduction to webscraping.
+Code adapted from https://thepythonscrapyplaybook.com/freecodecamp-beginner-course/ as an introduction to webscraping - done using https://www.youtube.com/watch?v=mBoX_JCKZTE&ab_channel=freeCodeCamp.org 
 
 For bookscraper the following commands are:
 
 - `scrapy crawl bookspider` - Runs the spider crawling through the website
 - `scrapy shell` - Puts us into a jupyter style shell
-- `scrapy crawl bookspider -O bookdata.csv` - Outputs results to a csv file (After crawling)
+- `scrapy crawl bookspider -O bookdata.csv/bookdata.json` - Also outputs results to a csv/json file (delete as appropriate)
